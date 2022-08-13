@@ -1,0 +1,22 @@
+const myAge = 26;
+//can't change this
+
+let earlyYears = 2;
+//this will change later on
+earlyYears *= 10.5;
+
+let laterYears = myAge - 2;
+//we are going to change this 
+
+laterYears *= 4;
+
+console.log(earlyYears);
+console.log(laterYears);
+
+let myAgeInDogYears = earlyYears + laterYears;
+//could use a list
+
+let myName = "Miche".toLowerCase();
+//keeps my name in lower case
+
+console.log(`My name is ${myName} I am ${myAge} years old in human years which is ${myAgeInDogYears} old in dog years.`)
