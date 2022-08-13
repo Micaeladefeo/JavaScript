@@ -1,0 +1,19 @@
+const kelvin = 293;
+//the value of kelvin has to be constant and can't be changed
+
+const celsius = kelvin - 273;
+//the value will be 20 
+
+let fahrenheit = celsius * (9/5) + 32;
+//this value is going to change later on
+
+fahrenheit = Math.floor(fahrenheit);
+//will round down the fahrenheit temperatur
+
+console.log("The temperature is " + fahrenheit + " degrees Fahrenheit.");
+
+//Newton
+
+let Newton = celsius * (33/100);
+Newton = Math.floor(Newton);
+console.log(`The temperature is ${Newton} degrees Newton.`);
